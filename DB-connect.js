@@ -17,9 +17,9 @@ var config = {
     port : gConfig.port,
 };
 
-sql.connect(config, function (err) {
-    if (err) console.log(err);
-});
+//sql.connect(config, function (err) {
+  ////  if (err) console.log(err);
+//});
 
 module.exports = {
     DBGet: function(query,res) {
